@@ -2,6 +2,7 @@
 <br>
 <p>This page contains the status and some information about weather satellites that transmit on the 137MHz band</p>
 <p>Inspired by happysat's <a href=https://github.com/happysat/Meteor-M-N-2-3-Satellite-Operational-Status>Meteor Satellite Operational Status</a> on github</p>
+<p>Push mirrored to <a href=https://github.com/thomasdouwes/137MHz-Weather-Satellite-Status>github.com</a> from <a href=https://forgejo.douwes.co.uk/thomas/137MHz-Weather-Satellite-Status>forgejo.douwes.co.uk</a>
 <h2>Disclamer:</h2>
 <p>I am not an expert! I have tried to make this document as accurate as possible but there may still be inaccuracies, I have cited sources where possible. If you think I have made an error please open an issue on the github repo with what I have done wrong</p>
 <h2>Satellites:</h2>
