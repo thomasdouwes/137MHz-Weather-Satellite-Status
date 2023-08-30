@@ -40,7 +40,7 @@
                 MSU-MR channels 1, 2, 3
                 </table>
             </details>
-            <h2>Instuments:</h2>
+            <h2>Instruments:</h2>  
             <details>
                 <summary>MSU-MR (VIS/IR Imaging Radiometer)</summary>
                 <table class="wxstatus">
@@ -132,7 +132,7 @@
                 All HIRS and SEM channels + some satellite telemetry
                 </table>
             </details>
-            <h2>Instuments:</h2>
+            <h2>Instruments:</h2>
             <details>
                 <summary>AVHRR/3 (Advanced very-high-resolution radiometer)</summary>
                 <table class="wxstatus">
@@ -284,7 +284,7 @@
                 All HIRS and SEM channels + some satellite telemetry
                 </table>
             </details>
-            <h2>Instuments:</h2>
+            <h2>Instruments:</h2>
             <details>
                 <summary>AVHRR/3 (Advanced very-high-resolution radiometer)</summary>
                 <table class="wxstatus">
@@ -428,7 +428,7 @@
                 All HIRS and SEM channels + some satellite telemetry
                 </table>
             </details>
-            <h2>Instuments:</h2>
+            <h2>Instruments:</h2>
             <details>
                 <summary>AVHRR/3 (Advanced very-high-resolution radiometer)</summary>
                 <table class="wxstatus">
