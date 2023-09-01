@@ -366,7 +366,8 @@
             NOAA 18 is the only POES satellites that uses AVHRR channel 1 (visible) on APT<br>
             The DSB on NOAA 18 sometimes temporarly switches off, I'm not sure why this happens<br>
             <h2>Log:</h2>
-            Nothing yet
+            <h3>2023-08-28</h3>
+            NOAA seems to be doing something with the APT channels, they switched off APT channel A during the night pass here and again on 2023-08-31<br>
         </tbody>
     </table>
 </details>
