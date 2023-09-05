@@ -70,7 +70,8 @@
             </details>
             <h2>Notes:</h2>
             <h2>Log:</h2>
-            Nothing yet
+            <h3>2023-09-05</h3>
+            Meteor-M 2-3 is having orientation issues
         </tbody>
     </table>
 </details>
