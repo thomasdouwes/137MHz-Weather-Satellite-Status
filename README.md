@@ -37,7 +37,7 @@
                 </table>
                 <h2>Notes:</h2>
                 Current data:<br>
-                MSU-MR channels 1, 2, 3
+                MSU-MR channels 1, 2, 4
                 </table>
             </details>
             <h2>Instruments:</h2>  
@@ -70,6 +70,8 @@
             </details>
             <h2>Notes:</h2>
             <h2>Log:</h2>
+            <h3>2023-10-6</h3>
+            Switched channels to 124 from 123
             <h3>2023-09-05</h3>
             Meteor-M 2-3 is having orientation issues
         </tbody>
