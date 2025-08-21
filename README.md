@@ -5,6 +5,7 @@
 <p>Push mirrored to <a href=https://github.com/thomasdouwes/137MHz-Weather-Satellite-Status>github.com</a> from <a href=https://forgejo.douwes.co.uk/thomas/137MHz-Weather-Satellite-Status>forgejo.douwes.co.uk</a>
 <h2>Disclamer:</h2>
 <p>I am not an expert! I have tried to make this document as accurate as possible but there may still be inaccuracies, I have cited sources where possible. If you think I have made an error please open an issue on the github repo with what I have done wrong</p>
+<h3>This should be accurate as of 2025-08-21</h3>
 <h2>Satellites:</h2>
 <br>
 <!--Meteor-M N2-3-->
@@ -37,7 +38,7 @@
                 </table>
                 <h2>Notes:</h2>
                 Current data:<br>
-                MSU-MR channels 1, 2, 4
+                MSU-MR channels 1, 2, 3
                 </table>
             </details>
             <h2>Instruments:</h2>  
@@ -78,6 +79,74 @@
     </table>
 </details>
 
+<!--Meteor-M N2-4-->
+<details open="true">
+    <summary>Meteor-M N2-4</summary>
+    <table class="wxstatus">
+        <tbody>
+            <tr><td>
+            <h2>Meteor-M N2-4:</h2>
+            <h3>Downlinks:</h3>
+            <details open="true">
+                <summary>LRPT (Low Rate Picture Transmission)</summary>
+                <table class="wxstatus">
+                <tr><td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td><h4>Frequency</h4></td>
+                            <td><h4>Modulation</h4></td>
+                            <td><h4>SymbolRate</h4></td>
+                            <td><h4>Status</h4></td>
+                        </tr>
+                        <tr>
+                            <td>137.900MHz</td>
+                            <td>OQPSK</td>
+                            <td>72.000K</td>
+                            <td>On</td>
+                        </tr>
+                    </thead>
+                </table>
+                <h2>Notes:</h2>
+                Current data:<br>
+                MSU-MR channels 1, 2, 3
+                </table>
+            </details>
+            <h2>Instruments:</h2>  
+            <details>
+                <summary>MSU-MR (VIS/IR Imaging Radiometer)</summary>
+                <table class="wxstatus">
+                <tr><td>
+                <table>
+                    <thead>
+                        <tr>
+                            <td><h4>Status</h4></td>
+                        </tr>
+                        <tr>
+                            <td>Ok</td>
+                        </tr>
+                    </thead>
+                </table>
+                Channels light wavelenghts:<br>
+                <br>
+                Channel 1 Visible Green-Red  (0.50 - 0.70 µm)<br>
+                Channel 2 Near IR   (0.70 - 1.10 µm)<br>
+                Channel 3 Near IR   (1.60 - 1.80 µm)<br>
+                Channel 4 Mid IR    (3.50 - 4.10 µm)<br>
+                Channel 5 Far IR    (10.5 - 11.5 µm)<br>
+                Channel 6 Far IR    (11.5 - 12.5 µm)<br>
+                <br>
+                From <a href=https://space.oscar.wmo.int/instruments/view/msu_mr>space.oscar.wmo.int</a>
+                <h2>Notes:</h2>
+                </table>
+            </details>
+            <h2>Notes:</h2>
+            <h2>Log:</h2>
+            Nothing yet
+        </tbody>
+    </table>
+</details>
+
 <!--NOAA 19-->
 <details open="true">
     <summary>NOAA 19</summary>
@@ -102,7 +171,7 @@
                             <td>137.100MHz</td>
                             <td>Analog</td>
                             <td>N/A</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -127,7 +196,7 @@
                             <td>137.770MHz</td>
                             <td>BPSK</td>
                             <td>TODO</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -225,7 +294,8 @@
             </details>
             <h2>Notes:</h2>
             <h2>Log:</h2>
-            Nothing yet
+            <h3>2025-08-13</h3>
+            NOAA 19 has been decommissioned
         </tbody>
     </table>
 </details>
@@ -254,7 +324,7 @@
                             <td>137.9125MHz</td>
                             <td>Analog</td>
                             <td>N/A</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -279,7 +349,7 @@
                             <td>137.350MHz</td>
                             <td>BPSK</td>
                             <td>TODO</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -371,6 +441,8 @@
             <h2>Log:</h2>
             <h3>2023-08-28</h3>
             NOAA seems to be doing something with the APT channels, they switched seem to have AVHRR channel 1 (visible) at night causing a black image<br>
+            <h3>2025-06-06</h3>
+            NOAA 18 has been decommissioned
         </tbody>
     </table>
 </details>
@@ -399,7 +471,7 @@
                             <td>137.620MHz</td>
                             <td>Analog</td>
                             <td>N/A</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -424,7 +496,7 @@
                             <td>137.350MHz</td>
                             <td>BPSK</td>
                             <td>TODO</td>
-                            <td>On</td>
+                            <td>Off</td>
                         </tr>
                     </thead>
                 </table>
@@ -525,6 +597,8 @@
             <h2>Log:</h2>
             <h3>2023-08-28</h3>
             The AVHRR scan motor appears to be stuck, corrupting the main image data. The MIRP (onboard computer) does not seem capable of using this data and makes an unsyncable APT signal<br>
+            <h3>2025-08-19</h3>
+            NOAA 15 has been decommissioned
         </tbody>
     </table>
 </details>
